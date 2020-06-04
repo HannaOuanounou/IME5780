@@ -56,7 +56,6 @@ public class Camera {
         }
 
         Vector Vij = Pij.subtract(_p0);
-
         return new Ray(Vij, _p0);
 
     }

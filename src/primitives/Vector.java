@@ -1,8 +1,5 @@
 package primitives;
 
-import java.nio.charset.CoderResult;
-import java.util.Objects;
-
 /**
  * the class vector is the class representating a vector in a 3D system
  *
@@ -68,6 +65,7 @@ public class Vector {
 
     /**
      * @param scalingFacor
+     * @return
      */
     public Vector scale(double scalingFacor) {
         return new Vector(
